@@ -1,0 +1,336 @@
+{
+  "basics": {
+    "name": "Christopher J Keen",
+    "label": "JavaScript Architect & Founder",
+    "picture": "https://media.licdn.com/media/p/1/000/0e7/154/0b26ef4.jpg",
+    "email": "christopher.keen@gmail.com",
+    "phone": "(404) 494-0390",
+    "website": "http://keenwebconcepts.com",
+    "summary": "Chris was born and raised in Atlanta GA (a native!) and loved computers from an early age.  He fell in love with the idea of programming a video game, and has created two (as of yet unreleased) video games with Impact.js with two of his close friends. Chris has a strong passion for JavaScript, and has presented several times at JavaScript Atlanta. Chris recently edited 'Data Visualizations with JavaScript' for NoStarch Press.",
+    "location": {
+      "address": "715 Mabry Road",
+      "postalCode": "GA 30328",
+      "city": "Sandy Springs",
+      "countryCode": "US",
+      "region": "Georgia"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "zedd45",
+        "url": "https://twitter.com/zedd45"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "christopherjackkeen",
+        "url": "https://www.linkedin.com/in/christopherjackkeen"
+      },
+      {
+        "network": "Google+",
+        "username": "KeenConcepts",
+        "url": "https://plus.google.com/114549099477212800472"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Keen Concepts",
+      "position": "JavaScript Architect / Founder",
+      "website": "http://keenwebconcepts.com",
+      "startDate": "2014-04-08",
+      "endDate": null,
+      "summary": "Keen Concepts provides consulting solutions for complex JavaScript Applications.  KC has consulted with startups in their launch phases, to established fortune one companies (Walmart Labs).",
+      "highlights": [
+        "Integrated Gulp into the http://www.vunify.com tech stack, allowing our front end process to JSHint, Concat, Minify, run tests, and compile Less CSS.  Karma + Jasmine 2.0 (jQuery+AJAX) ran our Unit Tests for our Backbone code. These tests were integrated into codeship.com for continuous deployment to production via Heroku",
+        "Refactored existing Algolia interface using an abstract class in Python that could be easily
+extended to parse the response for Multi-Queries (cross-collections - in this case, programs,
+playlists, and 'channels') into a single HTTP response for search results.",
+        "Created a series of User Playlist tools that allow users to create a playlist of programs, backed
+by Backbone Collections and Models synced with MongoDB via Flask RESTful. Playlists can be
+customized with a uploaded hero image via Heroku + Cloudinary. ",
+        "Created an energy-usage geo-vis using Gulp, Karma, browserify, and Leaflet.",
+        "Utilized Backbone and D3 with Epoxy to create a real-time dashboard of user statistics.",
+        "Extracted the Hapi server code to it's own repository, and included it in the CanJS stack and the Angular Proof of Concept for m.samsclub.com"
+      ]
+    },
+    {
+      "company": "Travel Syndication Technologies (AAA)",
+      "position": "UI Architecture Consultant",
+      "website": "https://www.tstllc.net/",
+      "startDate": "2013-07-02",
+      "endDate": "2014-04-08",
+      "summary": "TST provides dynamic travel booking and packaging solutions for AAA Clubs (and others)",
+      "highlights": [
+        "Created a series of AMD JS components to manage things like client side error reporting relaying AJAX requests (in vanilla javascript - no frameworks) to the Scala layer for processing & archival.",
+        "Configured SBT to allow for Grunt JS + Scala Play integration.",
+        "Switched Less & Require JS from Play management to Grunt management.  This allowed us to ditch Rhino, speeding up compile times by an order of magnitude, as well as enabling us to drop the hard-coded version of less in playframework, a factor that prevented us from using BootStrap 3 in our environment.",
+        "Created a top level Gruntfile that houses a custom task that utilized Q promises to call npm install, then bower install, then a grunt target (dev / dist) for each sub-project (using grunt-hub) in a reliable, race-condition-free manner. This allows local dev and the build process to use the same top level design for generating assets.",
+        "Created a licensee content project via Grunt JS that allows the white-label portion of our business to ingest html components (header, footer, 3rd party CSS etc) and integrates them together into a template, validates the html & css, and then pushes them to a GIT repo which, with Jenkins' help, untars them into dev servers for testing and later promotion to prod."
+      ]
+    },
+    {
+      "company": "Infor",
+      "position": "JavaScript Architecture Consultant",
+      "website": "http://www.infor.com/",
+      "startDate": "2013-02-01",
+      "endDate": "2013-07-02",
+      "summary": "I consulted on Infor Ming.le&#8482, a comprehensive platform for social collaboration, business process improvement, and contextual analytics. From collaborating alongside core systems like ERP or financials to “following” people and objects, Infor Ming.le&#8482 lets you get work done in ways you never thought possible.",
+      "highlights": [
+        "responsible for the architecture and implementation of a custom framework including jQuery plugins and page components for Infor Social (Ming.le) – a SSO platform used to create a single place to manage a company’s data across a suite of products provided by both Infor and the general industry.",
+        "Created integration points of loosely coupled components for reuse on a variety of discrete areas on the application.",
+        "Smart Dialog utilizing HTML5 contenteditable that handles user input in order to populate a suggestion list (autocomplete) for tagging users and groups within the organization.  These events include 'tagging' a user by creating a visual aesthetic inside of the html input box ( contenteditable div), keyboard selection using arrow keys and enter, and storing the actual value of the tag for processing of notifications to tagged users and processing of privacy levels for posts.",
+        "Revised existing custom HTML5 Bulk upload component, utilizing feature detection to instantiate Flash (Uploadify) fallback for browsers that don’t support File API",
+        "Image Carousel with pagination",
+        "Overlay / Dialog component supporting dynamic content that ‘conditionally’ binds event listeners for re-centering and closing (upon close button click or esc key).",
+        "Infinite Scroll component with a custom callback feature to fire programmable actions when it detects user has reached the ‘end’ of the current content",
+        "Consolidated JavaScript file structure and created easily-extensible namespacing conventions to reduce maintenance and enhancement overhead (using $.extend and detection to prevent ‘clobbering’ existing namespaces).",
+        "Added Mocha JS with Sinon JS & Chai JS to test plugin components and custom framework integration"
+      ]
+    },
+     {
+      "company": "CrowdStrike",
+      "position": "Sr. UI Engineer",
+      "website": "http://www.crowdstrike.com",
+      "startDate": "2013-02-01",
+      "endDate": "2012-04-01",
+      "summary": "Real Time network intrusion detection and monitoring.",
+      "highlights": [
+        "Authored an internal API to index data using Ruby Sinatra to return paginated JSON responses from Amazon's DynamoDB, including a file processing queue using Amazon's SQS.  I then wrapped these API calls in a UI utilizing JSONP, Handlebars, and HTML5 validation.  I implemented a light-weight, custom infinite scroll handler to fetch more results as the user scrolled down the page (similar yet different from Paul Irish's version).  I completed this effort with by adding unit tests for the API in RSpec / rack::test, and Mocha JS tests for the UI / JavaScript components.",
+        "Contributed to the development of Ember JS 'widgets' written in CoffeeScript.  We utilized  Ember Data for REST calls, data persistence, and to handle state (loading/error) transitions.",
+        "Populated JSON responses via Express JS wrappers that aggregate data from API calls.  We used mocha js (also written in CoffeeScript) to test both the Node JS / Express JS and client side (Ember JS) unit tests."
+      ]
+    },
+    {
+      "company": "Endgame Systems",
+      "position": "Sr. Web Application Developer",
+      "website": "https://www.endgame.com/",
+      "startDate": "2010-07-06",
+      "endDate": "2011-11-12",
+      "summary": "EGS provides Instant Detection and Active Response To Advanced Threats with Endgame Enterprise",
+      "highlights": [
+        "Utilize Python / Django with jQuery to create the front end and several NoSQL stores including Cassandra, Accumulo, Hadoop, and Solr to sift through large amounts of data.",
+        "Implemented several visualizations ranging from simple charts created with jQuery's Flot, to interactive tables using jQuery dataTables.",
+        "Crafted a replacement for Google Earth Enterprise product using OpenStreetMap data and tiles styled in TileMill, served by TileStache, with interactions powered by Leaflet JS.  This effort saved ~$500,000 per deployment (the cost of an enterprise GE license)."
+      ]
+    },
+    {
+      "company": "The Weather Channel",
+      "position": "Sr. Web Application Developer / UI Team Lead",
+      "website": "http://weather.com",
+      "startDate": "2010-07-06",
+      "endDate": "2011-11-12",
+      "summary": "The Weather Channel and weather.com provide a national and local weather forecast for cities, as well as weather radar, report and hurricane coverage.",
+      "highlights": [
+        "I participated in the mobile-first web redesign for weather.com.  We used zepto.js for light-weight, cross-platform event handling (such as swipe), and used cutting edge RWD and CSS3 technologies to render a fast and friendly experience to mobile users.",
+        "Project Swagger integrated Twitter into weather.com.  I worked with Jeff Lu to create the components,ate including a SVG 'Tweet' Map that would present a carousel of weather-related tweets specific to a st when you clicked on a state.",
+        "I participated in the Interactive Map Redesign, where we created an HTML5-friendly version of the map, as well as integrated with Flash to create a rich experience using Bing Maps."
+      ]
+    },
+    {
+      "company": "AutoTrader.com",
+      "position": "User Interface Engineer",
+      "website": "http://autotrader.com",
+      "startDate": "2008-03-01",
+      "endDate": "2010-07-06",
+      "summary": "AutoTrader.com connects private sellers and dealers with customers by providing a dynamic, innovative marketplace platform.",
+      "highlights": [
+        "Proposed and implemented changes to the code that controls Ads on the front and back end in order to have a consistent, concise, performance optimized solution.",
+        "Ad Serving Subject Matter Expert (SME).",
+        "UIE project lead on several projects, including: AutoTraderClassics.com (post-launch), Consumer Site Loyalty / MyATC.",
+        "Received the Helping Hands Award from Customer Operations for leading proactive enhancements.",
+        "Responsible for managing and maintaining the UIE code review process.",
+        "Sole developer on two site-wide, high profile initiatives (Ads Framework Upgrade, Marketing Homepage & Header banners), while engaged on a third, mission critical project (Next Generation Model Info).",
+        "Created UI components for the Model Info page that emit & listen for name-spaced jQuery events and re-render areas of the UI based on the event. (pre-backbone)",
+        "Authored UI controls on the find your car page allowing users to select by body style tiles, and revising the AJAX powered drop-downs that allow selection of make & model",
+        "Created JS controller to power ad targeting changes via AJAX calls for a research page component",
+        "Integrated the Flash “hero” homepage ad and background images for site header into the CMS.",
+        "Encouraged and participated in the addition of jQuery to AutoTrader.com",
+        "Received the 'I Make a Difference' award for outstanding dedication to the site.",
+        "Solitary engineer on Maintenance for AutoTrader.com for several months. Responsible for all issue resolutions, including production emergencies. Required to support multiple platforms / browsers."
+      ]
+    },
+    {
+      "company": "Intuit Financial Institutions Division",
+      "position": "Web Software Developer",
+      "website": "http://www.intuit.com",
+      "startDate": "2004-11-01",
+      "endDate": "2008-03-01",
+      "summary": "Intuit Financial Institutions Division provides websites with integrated internet banking solutions.",
+      "highlights": [
+        "Worked with jQuery to create rich interactions from carousels to dynamic crossfading banners",
+        "Worked with 'big tier' banks (igobanking.com, flushingbank.com etc) to create rich interactions and visuals",
+        "Customized Internet Banking visuals with jQuery",
+        "After hours support responsible for completion of all SLAs for the day",
+        "Organized and executed the development of intranet resources for training new QA employees",
+        "Documented and published standard operating procedures for the QA department."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "JavaScript Atlanta",
+      "position": "Speaker / Lecturer",
+      "website": "https://twitter.com/atljavascript",
+      "startDate": "2012-01-01",
+      "endDate": null,
+      "summary": "Meetups and Workshops for those passionate about learning JavaScript.",
+      "highlights": [
+        "Video Game Libraries 2012",
+        "Grunt 2013",
+        "Gulp 2014"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Georgia",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2003-06-01",
+      "endDate": "",
+      "gpa": "2.99",
+      "courses": [
+        "CS1301 - Intro to Software Design",
+        "CS1302 - Software Design",
+        "CS1702 - Systems Programming",
+        "CSCI 2670 - Computer Theory",
+        "CSCI 2720 - Data Structures",
+        "CS-2610 - Discrete Mathematics",
+        "MATH 2250 - Calculus I",
+        "Philosophy",
+        "Misc Electives"
+      ]
+    },
+    {
+      "institution": "University of North Georgia",
+      "area": "Computer Science",
+      "studyType": "Associates",
+      "startDate": "2000-01-01",
+      "endDate": "2006-06-01",
+      "gpa": "3.1",
+      "courses": [
+        "MATH 2260 - Calculus II",
+        "Honors English I",
+        "Honors English II",
+        "Psychology I",
+        "Sociology I",
+        "Misc Electives"
+      ]
+    },
+  ],
+  "awards": [
+    {
+      "title": "Customer Service Recognition Award",
+      "date": "2009-10-01",
+      "awarder": "AutoTrader.com",
+      "summary": "I helped the AdServing team out with a huge refactoring that a friend and I pitched to the leadership that allowed us to help make placements on our site smoother, more reliable, and more flexible, and included a debugging framework."
+    },
+    {
+      "title": "I Make a Difference Award",
+      "date": "2008-09-01",
+      "awarder": "AutoTrader.com",
+      "summary": "My passion to seek out and fix problems resulted in us creating a performance initiative at AutoTrader.com. I also pitched converting from Prototype.js to jQuery.js, both of which resulted in this award."
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "ES5"
+      ]
+    },
+    {
+        "name": "Front-End Frameworks",
+        "level": "Expert",
+        "keywords": [
+            "Backbone",
+            "Leaflet",
+            "D3",
+            "Google Maps",
+            "Bootstrap 3"
+        ]
+    },
+    {
+        "name": "Front-End Preprocessors",
+        "level": "Intermediate",
+        "keywords": [
+            "Less CSS",
+            "Sass",
+            "Stylus",
+            "Jade",
+            "Haml",
+            "CoffeeScript"
+        ]
+    },
+    {
+        "name": "Server / Middleware",
+        "level": "Intermediate",
+        "keywords": [
+            "Hapi",
+            "Express",
+            "Sinatra",
+            "Flask",
+            "Django",
+            "CodeIgniter"
+        ]
+    },
+    {
+        "name": "Node Build Tools",
+        "level": "Intermediate",
+        "keywords": [
+            "Grunt",
+            "Gulp",
+            "Jake"
+        ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "Working Knowledge"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Dogs"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jon Bradway",
+      "reference": "Chris is a proactive and thoughtful technologist who helped to accelerate our product development efforts at Vunify. He is passionate about his work, and actively communicates with other developers and product managers throughout the product lifecycle. Chris understands how to balance often competing business and technology goals to achieve access for the organization. He is an asset for any organization."
+    },
+    {
+        "name": "Renata Nedzynski",
+        "reference": "Chris was initially highly recommended to me by someone I trust. From initial contact, Chris has been a pleasure to work with. He is an extremely competent UI architect with a true passion for technology. He's conscientious, innovative, reliable, dedicated and genuinely cares about the team he works with and about building a quality product."
+    },
+    {
+        "name": "Adam Brons",
+        "reference": "Chris is a phenomenal UI Developer. I had the pleasure of hiring and working along side him at Travel Syndicate Technologies (TST). While at TST we built custom UI components using HTML, CSS, Javascript, and Backbone. In addition to our own work load of providing reusable components to 5 development teams and numerous customers, Chris also was the first one to roll up his sleeves and sit with developers that needed help with their CSS and Javascript. \n Chris is a 'go getter', we'd discuss a technology that looked promising on the web and a few days later he would frequently have a working prototype for evaluation. \n Given the opportunity to work with or hire Chris again I would do so in a heart beat."
+    },
+    {
+        "name": "Jeff Lu",
+        "reference": "It's always been a pleasure working with Chris on several projects at The Weather Channel. Chris is a great team player and excellent go to person to bounce off ideas. Not only a very innovative and keen developer, Chris is also an effective communicator. His ability to articulate and explain problems at hand really help streamline our projects and making them the successful ones. Chris brings a lot of value to our projects particularly with his well of knowledge in html/css. Chris certainly is a great asset to any team."
+    },
+    {
+        "name": "Tim Francis",
+        "reference": "Chris has an advanced understanding of HTML and JavaScript using jQuery that allows him to create any solution required. He can easily adapt to new libraries and APIs working with many design patterns. He also is very passionate about his work and solutions that represents itself in his final product. After working with many developers over 20 years Chris has shown to be at the top of his field."
+    },
+    {
+        "name": "Kireet Kokala",
+        "reference": "I’ve been working with Chris since 2008. At the outset, I can say that he is a highly technical engineer and an asset to those he works with. His skills extend beyond JSP, JSF, CSS, and the JavaScript we regularly use at ATC. As a problem solver, his attitude and skill-set have the right mix of conceptually understanding a technical problem, coming up with a solution, and communicating its details effectively to all concerned. And, his analytical ability is coupled with resourcefulness, which I see him put to use on a daily basis. Chris has actively been engaged with AutoTraderclassics development and its maintenance phase. As a technical go-to UIE engineer, his knowledge of application development and the ATX business is extensive. On many occasions I’ve dropped by his desk for help on ATX or Dealer legacy code and he has never hesitated to help me out or point me in the right direction. Chris’s input has proved highly valuable to me on and off the office floor. \n From my understanding of ATC and the complexities in its architecture, it is clear that Chris endeavors to improve code quality and make the development process more efficient. Additionally, I’ve seen that his expertise extends into the architecture domain featuring industrial strength PHP frameworks where I've seen him take extra measures to oversee his work from an end-to-end perspective on projects. I also enjoy working with Chris and look up to him on many areas such as leadership, technical knowledge, and problem solving, and recognize his unique blend of skills. His creativity and dedication to work is admirable and I highly recommend him for the next level of duties that are hopefully tagged to a well deserved promotion"
+    }
+  ]
+}
