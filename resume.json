@@ -38,16 +38,12 @@
       "position": "JavaScript Architect / Founder",
       "website": "http://keenwebconcepts.com",
       "startDate": "2014-04-08",
-      "endDate": null,
+      "endDate": "2024-04-08",
       "summary": "Keen Concepts provides consulting solutions for complex JavaScript Applications.  KC has consulted with startups in their launch phases, to established fortune one companies (Walmart Labs).",
       "highlights": [
         "Integrated Gulp into the http://www.vunify.com tech stack, allowing our front end process to JSHint, Concat, Minify, run tests, and compile Less CSS.  Karma + Jasmine 2.0 (jQuery+AJAX) ran our Unit Tests for our Backbone code. These tests were integrated into codeship.com for continuous deployment to production via Heroku",
-        "Refactored existing Algolia interface using an abstract class in Python that could be easily
-extended to parse the response for Multi-Queries (cross-collections - in this case, programs,
-playlists, and 'channels') into a single HTTP response for search results.",
-        "Created a series of User Playlist tools that allow users to create a playlist of programs, backed
-by Backbone Collections and Models synced with MongoDB via Flask RESTful. Playlists can be
-customized with a uploaded hero image via Heroku + Cloudinary. ",
+        "Refactored existing Algolia interface using an abstract class in Python that could be easily extended to parse the response for Multi-Queries (cross-collections - in this case, programs, playlists, and 'channels') into a single HTTP response for search results.",
+        "Created a series of User Playlist tools that allow users to create a playlist of programs, backed by Backbone Collections and Models synced with MongoDB via Flask RESTful. Playlists can be customized with a uploaded hero image via Heroku + Cloudinary. ",
         "Created an energy-usage geo-vis using Gulp, Karma, browserify, and Leaflet.",
         "Utilized Backbone and D3 with Epoxy to create a real-time dashboard of user statistics.",
         "Extracted the Hapi server code to it's own repository, and included it in the CanJS stack and the Angular Proof of Concept for m.samsclub.com"
@@ -172,7 +168,7 @@ customized with a uploaded hero image via Heroku + Cloudinary. ",
       "position": "Speaker / Lecturer",
       "website": "https://twitter.com/atljavascript",
       "startDate": "2012-01-01",
-      "endDate": null,
+      "endDate": "2024-04-08",
       "summary": "Meetups and Workshops for those passionate about learning JavaScript.",
       "highlights": [
         "Video Game Libraries 2012",
@@ -187,7 +183,7 @@ customized with a uploaded hero image via Heroku + Cloudinary. ",
       "area": "Computer Science",
       "studyType": "Bachelor",
       "startDate": "2003-06-01",
-      "endDate": "",
+      "endDate": "2024-04-08",
       "gpa": "2.99",
       "courses": [
         "CS1301 - Intro to Software Design",
@@ -216,7 +212,7 @@ customized with a uploaded hero image via Heroku + Cloudinary. ",
         "Sociology I",
         "Misc Electives"
       ]
-    },
+    }
   ],
   "awards": [
     {
