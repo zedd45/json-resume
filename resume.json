@@ -16,6 +16,21 @@
     },
     "profiles": [
       {
+        "network": "Stack Overflow",
+        "username": "zedd45",
+        "url": "http://stackoverflow.com/users/673958/zedd45"
+      },
+      {
+        "network": "GitHub",
+        "username": "zedd45",
+        "url": "https://github.com/zedd45"
+      },
+      {
+        "network": "BitBucket",
+        "username": "zedd45",
+        "url": "https://bitbucket.org/Zedd45/"
+      },
+      {
         "network": "Twitter",
         "username": "zedd45",
         "url": "https://twitter.com/zedd45"
@@ -34,11 +49,24 @@
   },
   "work": [
     {
+      "company": "Walmart Labs",
+      "position": "Sr Mobile Engineer / Team Lead",
+      "website": "https://m.samsclub.com",
+      "startDate": "2014-04-08",
+      "endDate": "2014-08-17",
+      "summary": "Walmart Labs is the leading e-commerce platform in the world, providing open source solutions to complex problems.",
+      "highlights": [
+        "Designed a Hapi JS plugin that aggregated API calls with server caching which withstood 4.3 million page views per hour for the Sam's Club VIP Sale.",
+        "Developed speech recognition prototype utilizing Angular 1.x, Babel, ES2015 and WebPack",
+        "Integrated Jenkins CI with npm modules to integrate five discreet modules into one testable, deployable project that represents the "
+      ]
+    },
+    {
       "company": "Keen Concepts",
       "position": "JavaScript Architect / Founder",
       "website": "http://keenwebconcepts.com",
       "startDate": "2014-04-08",
-      "endDate": "2024-04-08",
+      "endDate": "2024-01-01",
       "summary": "Keen Concepts provides consulting solutions for complex JavaScript Applications.  KC has consulted with startups in their launch phases, to established fortune one companies (Walmart Labs).",
       "highlights": [
         "Integrated Gulp into the http://www.vunify.com tech stack, allowing our front end process to JSHint, Concat, Minify, run tests, and compile Less CSS.  Karma + Jasmine 2.0 (jQuery+AJAX) ran our Unit Tests for our Backbone code. These tests were integrated into codeship.com for continuous deployment to production via Heroku",
@@ -46,7 +74,8 @@
         "Created a series of User Playlist tools that allow users to create a playlist of programs, backed by Backbone Collections and Models synced with MongoDB via Flask RESTful. Playlists can be customized with a uploaded hero image via Heroku + Cloudinary. ",
         "Created an energy-usage geo-vis using Gulp, Karma, browserify, and Leaflet.",
         "Utilized Backbone and D3 with Epoxy to create a real-time dashboard of user statistics.",
-        "Extracted the Hapi server code to it's own repository, and included it in the CanJS stack and the Angular Proof of Concept for m.samsclub.com"
+        "Extracted the Hapi server code to it's own repository, and included it in the CanJS stack and the Angular Proof of Concept for m.samsclub.com",
+        "Refactored fantasycoach.com onto a modern, extensible platform using Marionette JS, complete with UX and speed improvements.  Load time improved by an order of magnitude."
       ]
     },
     {
@@ -248,7 +277,9 @@
             "Leaflet",
             "D3",
             "Google Maps",
-            "Bootstrap 3"
+            "Bootstrap 3",
+            "Angular 1.x",
+            "Marionette"
         ]
     },
     {
