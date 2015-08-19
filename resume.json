@@ -26,11 +26,6 @@
         "url": "https://github.com/zedd45"
       },
       {
-        "network": "BitBucket",
-        "username": "zedd45",
-        "url": "https://bitbucket.org/Zedd45/"
-      },
-      {
         "network": "Twitter",
         "username": "zedd45",
         "url": "https://twitter.com/zedd45"
@@ -39,11 +34,6 @@
         "network": "LinkedIn",
         "username": "christopherjackkeen",
         "url": "https://www.linkedin.com/in/christopherjackkeen"
-      },
-      {
-        "network": "Google+",
-        "username": "KeenConcepts",
-        "url": "https://plus.google.com/114549099477212800472"
       }
     ]
   },
@@ -52,8 +42,7 @@
       "company": "Walmart Labs",
       "position": "Sr Mobile Engineer / Team Lead",
       "website": "https://m.samsclub.com",
-      "startDate": "2014-04-08",
-      "endDate": "2014-08-17",
+      "startDate": "2015-04-08",
       "summary": "Walmart Labs is the leading e-commerce platform in the world, providing open source solutions to complex problems.",
       "highlights": [
         "Designed a Hapi JS plugin that aggregated API calls with server caching which withstood 4.3 million page views per hour for the Sam's Club VIP Sale.",
@@ -66,7 +55,6 @@
       "position": "JavaScript Architect / Founder",
       "website": "http://keenwebconcepts.com",
       "startDate": "2014-04-08",
-      "endDate": "2024-01-01",
       "summary": "Keen Concepts provides consulting solutions for complex JavaScript Applications.  KC has consulted with startups in their launch phases, to established fortune one companies (Walmart Labs).",
       "highlights": [
         "Integrated Gulp into the http://www.vunify.com tech stack, allowing our front end process to JSHint, Concat, Minify, run tests, and compile Less CSS.  Karma + Jasmine 2.0 (jQuery+AJAX) ran our Unit Tests for our Backbone code. These tests were integrated into codeship.com for continuous deployment to production via Heroku",
