@@ -40,14 +40,16 @@
   "work": [
     {
       "company": "Walmart Labs",
-      "position": "Sr Mobile Engineer / Team Lead",
+      "position": "Sr Mobile Engineer / Node JS Team Lead",
       "website": "https://m.samsclub.com",
       "startDate": "2015-04-08",
       "summary": "Walmart Labs is the leading e-commerce platform in the world, providing open source solutions to complex problems.",
       "highlights": [
         "Designed a Hapi JS plugin that aggregated API calls with server caching which withstood 4.3 million page views per hour for the Sam's Club VIP Sale.",
-        "Developed speech recognition prototype utilizing Angular 1.x, Babel, ES2015 and WebPack",
-        "Integrated Jenkins CI with npm modules to integrate five discreet modules into one testable, deployable project that represents the "
+        "Developed speech recognition prototype utilizing Angular 1.4.x, Babel, ES2015 and WebPack",
+        "Implemented a 'heartbeat' plugin that displays statistics including load, memory usage, current tag for each repo, API endpoints, and more that also serves as a means for the T2 load balancer to check that health of the node instance for a given VIP",
+        "Transitioned m.samsclub.com from a legacy Bentonville datacenter to OneOps - Walmart's soon to be open source OpenStack cloud computing platform",
+        "Adam Brons and I Supported Angular team's Cart and Checkout redesign for 2015 by connecting calls from Angular to the desktop APIs and returning properly formatted responses with cookies"
       ]
     },
     {
@@ -63,7 +65,9 @@
         "Created an energy-usage geo-vis using Gulp, Karma, browserify, and Leaflet.",
         "Utilized Backbone and D3 with Epoxy to create a real-time dashboard of user statistics.",
         "Extracted the Hapi server code to it's own repository, and included it in the CanJS stack and the Angular Proof of Concept for m.samsclub.com",
-        "Refactored fantasycoach.com onto a modern, extensible platform using Marionette JS, complete with UX and speed improvements.  Load time improved by an order of magnitude."
+        "Refactored fantasycoach.com onto a modern, extensible platform using Marionette JS to create components. These modifications included UX and speed improvements.  Load times improved by an order of magnitude.",
+        "I was asked to teach the first Node js class held at The Creative Circus. I teach students how to use Hapi JS",
+        "Consulted with Randstad USA on a talent search intranet website written on a MEAN stack using Google Compute.  I added a custom single signon component with session management to the Express JS layer"
       ]
     },
     {
