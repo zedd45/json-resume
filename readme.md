@@ -26,12 +26,7 @@ http://registry.jsonresume.org/zedd45
 
 *password is chriskeen*
 
-You can also access exported version of your resume: 
+<!-- You can also access exported version of your resume: 
 http://registry.jsonresume.org/zedd45.pdf 
 http://registry.jsonresume.org/zedd45.txt
-
-
-
-Users may also password protect their resume: 
-http://registry.jsonresume.org/richardhendriks
-
+-->
