@@ -39,17 +39,31 @@
   },
   "work": [
     {
+      "company": "ZCo Holdings",
+      "position": "UI / Node Architect",
+      "website": "http://acesse.com/",
+      "startDate": "2015-11-15",
+      "summary": "Acesse bought a startup (www.fantasycoach.com) that my friends are I were rewriting in Backbone Marionette, and offered us all full time employment",
+      "highlights": [
+        "Designed a Hapi JS Dev Server with Adam Brons capable of proxying out to multiple microservices (packaged as docker containers), that is also able to speak to Webpack Dev Server to Hot Reload React Modules while developing them",
+        "Designed & Developed a react login component for use with JSON Web Tokens",
+        "Dockerized fantasycoach.com into backend, middleware (node / hapi) and frontend components (Backbone Marionette)"
+      ]
+    },
+    {
       "company": "Walmart Labs",
       "position": "Sr Mobile Engineer / Node JS Team Lead",
       "website": "https://m.samsclub.com",
       "startDate": "2015-04-08",
+      "endDate": "2015-11-15",
       "summary": "Walmart Labs is the leading e-commerce platform in the world, providing open source solutions to complex problems.",
       "highlights": [
         "Designed a Hapi JS plugin that aggregated API calls with server caching which withstood 4.3 million page views per hour for the Sam's Club VIP Sale.",
         "Developed speech recognition prototype utilizing Angular 1.4.x, Babel, ES2015 and WebPack",
         "Implemented a 'heartbeat' plugin that displays statistics including load, memory usage, current tag for each repo, API endpoints, and more that also serves as a means for the T2 load balancer to check that health of the node instance for a given VIP",
         "Transitioned m.samsclub.com from a legacy Bentonville datacenter to OneOps - Walmart's soon to be open source OpenStack cloud computing platform",
-        "Adam Brons and I Supported Angular team's Cart and Checkout redesign for 2015 by connecting calls from Angular to the desktop APIs and returning properly formatted responses with cookies"
+        "Adam Brons and I Supported Angular team's Cart and Checkout redesign for 2015 by connecting calls from Angular to the desktop APIs and returning properly formatted responses with cookies",
+        "Combined UI and Node JS efforts brought 0.02% conversion to 0.08% conversion"
       ]
     },
     {
@@ -348,8 +362,20 @@
         "reference": "Chris has an advanced understanding of HTML and JavaScript using jQuery that allows him to create any solution required. He can easily adapt to new libraries and APIs working with many design patterns. He also is very passionate about his work and solutions that represents itself in his final product. After working with many developers over 20 years Chris has shown to be at the top of his field."
     },
     {
-        "name": "Kireet Kokala",
-        "reference": "I’ve been working with Chris since 2008. At the outset, I can say that he is a highly technical engineer and an asset to those he works with. His skills extend beyond JSP, JSF, CSS, and the JavaScript we regularly use at ATC. As a problem solver, his attitude and skill-set have the right mix of conceptually understanding a technical problem, coming up with a solution, and communicating its details effectively to all concerned. And, his analytical ability is coupled with resourcefulness, which I see him put to use on a daily basis. Chris has actively been engaged with AutoTraderclassics development and its maintenance phase. As a technical go-to UIE engineer, his knowledge of application development and the ATX business is extensive. On many occasions I’ve dropped by his desk for help on ATX or Dealer legacy code and he has never hesitated to help me out or point me in the right direction. Chris’s input has proved highly valuable to me on and off the office floor. \n From my understanding of ATC and the complexities in its architecture, it is clear that Chris endeavors to improve code quality and make the development process more efficient. Additionally, I’ve seen that his expertise extends into the architecture domain featuring industrial strength PHP frameworks where I've seen him take extra measures to oversee his work from an end-to-end perspective on projects. I also enjoy working with Chris and look up to him on many areas such as leadership, technical knowledge, and problem solving, and recognize his unique blend of skills. His creativity and dedication to work is admirable and I highly recommend him for the next level of duties that are hopefully tagged to a well deserved promotion"
+        "name": "Guilherme Sad Gorgulho",
+        "reference": "Working with Chris is a very pleasant, fun and highly productive experience. Chris' genuine passion for top-edge technologies and intelligent solutions makes him not only extremely active within the company, but deeply engaged in everything that is going on in the project at hand. This \"eagle's eye\" trait makes him able to jump in to help on whatever issue there may be, applying the appropriate skill set. On top of that, he is a very communicative and eloquent person, which is a big plus when working with other engineers - an analytical mind is no use without being able to express ideas well. I'm happy to have him as a coworker."
+    },
+    {
+        "name": "Anthony Pardo",
+        "reference": "Chris Keen is a real asset to any team. He is able to solve tough problems and never backs down from a challenge"
+    },
+    {
+        "name": "Eric Gisler",
+        "reference": "I knew Chris years ago when he first started HTML/CSS/JavaScript development. I actually hired him in as a QA Analyst and he worked really hard to move to Developer. In short time, he became one of the best on the team. He moved on to bigger & better opportunities and it's always been great to hear about his continuous improvement. If I ever had a need for a Developer and Chris was looking, I'd try to snag him as quickly as I could."
+    },
+    {
+        "name": "Joey Taylor",
+        "reference": "Chris was very detailed, goal oriented and produced high quality results for me on various projects. Chris is a great fit in any culture, and was liked by everyone in the office. He is considered an authority by many in the tech space and would make a great addition to any web team. A++ highly recommended. Will definitely work with again."
     }
   ]
 }

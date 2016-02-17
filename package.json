@@ -1,0 +1,22 @@
+{
+  "name": "chris-keen-resume",
+  "version": "1.0.0",
+  "description": "JSON Resume format for Chris Keen",
+  "main": "index.js",
+  "dependencies": {
+    "jsonresume-theme-dark-classy": "^1.0.1",
+    "resume-cli": "^0.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/Zedd45/json-resume.git"
+  },
+  "keywords": [],
+  "author": "Chris Keen <christopher.keen@gmail.com> (http://keenwebconcepts.com/)",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Zedd45/json-resume#readme"
+}
