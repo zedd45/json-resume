@@ -39,6 +39,17 @@
   },
   "work": [
     {
+      "company": "The Creative Circus",
+      "position": "Adjunct Professor",
+      "website": "http://www.creativecircus.edu/",
+      "startDate": "2015-09-15",
+      "summary": "I teach young professionals concepts about JavaScript",
+      "highlights": [
+        "Advanced JavaScript - Inheritance, ES6, Design (Module) Patterns, TDD and more (https://github.com/zedd45/2016Q1-adv-js)",
+        "Node.js - How to build a server using Node JS and Hapi (https://github.com/zedd45/2015-fall-creative-circus)"
+      ]
+    },
+    {
       "company": "ZCo Holdings",
       "position": "UI / Node Architect",
       "website": "http://acesse.com/",
