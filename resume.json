@@ -46,7 +46,7 @@
       "summary": "Acesse bought a startup (www.fantasycoach.com) that my friends are I were rewriting in Backbone Marionette, and offered us all full time employment",
       "highlights": [
         "Designed a Hapi JS Dev Server with Adam Brons capable of proxying out to multiple microservices (packaged as docker containers), that is also able to speak to Webpack Dev Server to Hot Reload React Modules while developing them",
-        "Designed & Developed a react login component for use with JSON Web Tokens",
+        "Designed & Developed a React login component for use with JSON Web Tokens",
         "Dockerized fantasycoach.com into backend, middleware (node / hapi) and frontend components (Backbone Marionette)"
       ]
     },
@@ -63,7 +63,7 @@
         "Implemented a 'heartbeat' plugin that displays statistics including load, memory usage, current tag for each repo, API endpoints, and more that also serves as a means for the T2 load balancer to check that health of the node instance for a given VIP",
         "Transitioned m.samsclub.com from a legacy Bentonville datacenter to OneOps - Walmart's soon to be open source OpenStack cloud computing platform",
         "Adam Brons and I Supported Angular team's Cart and Checkout redesign for 2015 by connecting calls from Angular to the desktop APIs and returning properly formatted responses with cookies",
-        "Combined UI and Node JS efforts brought 0.02% conversion to 0.08% conversion"
+        "UI and Node JS efforts raised 0.02% conversion in February to 0.08% conversion by EOY"
       ]
     },
     {
