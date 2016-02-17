@@ -283,7 +283,9 @@
         "HTML5",
         "CSS3",
         "Javascript",
-        "ES5"
+        "ES5",
+        "ES6",
+        "ES2015"
       ]
     },
     {
@@ -296,7 +298,8 @@
             "Google Maps",
             "Bootstrap 3",
             "Angular 1.x",
-            "Marionette"
+            "Marionette",
+            "React"
         ]
     },
     {
@@ -325,10 +328,11 @@
     },
     {
         "name": "Node Build Tools",
-        "level": "Intermediate",
+        "level": "Advanced",
         "keywords": [
-            "Grunt",
+            "Webpack",
             "Gulp",
+            "Grunt",
             "Jake"
         ]
     }
