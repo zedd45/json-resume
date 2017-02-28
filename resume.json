@@ -5,7 +5,7 @@
     "picture": "https://media.licdn.com/media/p/1/000/0e7/154/0b26ef4.jpg",
     "email": "christopher.keen@gmail.com",
     "phone": "(404) 494-0390",
-    "website": "http://keenwebconcepts.com",
+    "website": "http://keenconcepts.io",
     "summary": "Chris was born and raised in Atlanta GA (a native!) and loved computers from an early age.  He fell in love with the idea of programming a video game, and has created two (as of yet unreleased) video games with Impact.js with two of his close friends. Chris has a strong passion for JavaScript, and has presented several times at JavaScript Atlanta. Chris recently edited 'Data Visualizations with JavaScript' for NoStarch Press.",
     "location": {
       "address": "715 Mabry Road",
@@ -56,8 +56,8 @@
       "startDate": "2015-11-15",
       "summary": "Acesse bought a startup (www.fantasycoach.com) that my friends are I were rewriting in Backbone Marionette, and offered us all full time employment",
       "highlights": [
-        "Designed a Hapi JS Dev Server with Adam Brons capable of proxying out to multiple microservices (packaged as docker containers), that is also able to speak to Webpack Dev Server to Hot Reload React Modules while developing them",
-        "Designed & Developed a React login component for use with JSON Web Tokens",
+        "Co-Designed a Hapi JS Dev Server capable of proxying out to multiple microservices (packaged as docker containers), that is also able to speak to Webpack Dev Server to Hot Reload React Modules while developing them",
+        "Developed a React + Redux + react-router + react-bootstrap based site for entering E-Sports competitions (currently CS:GO), complete with hundreds of unit tests.  This site was fully internationalized (i18n) with the use of reat-globalize and deployed in Singapore, here: https://www.fantasesports.com/",
         "Dockerized fantasycoach.com into backend, middleware (node / hapi) and frontend components (Backbone Marionette)"
       ]
     },
@@ -73,7 +73,7 @@
         "Developed speech recognition prototype utilizing Angular 1.4.x, Babel, ES2015 and WebPack",
         "Implemented a 'heartbeat' plugin that displays statistics including load, memory usage, current tag for each repo, API endpoints, and more that also serves as a means for the T2 load balancer to check that health of the node instance for a given VIP",
         "Transitioned m.samsclub.com from a legacy Bentonville datacenter to OneOps - Walmart's soon to be open source OpenStack cloud computing platform",
-        "Adam Brons and I Supported Angular team's Cart and Checkout redesign for 2015 by connecting calls from Angular to the desktop APIs and returning properly formatted responses with cookies",
+        "My team supported the Angular team's Cart and Checkout redesign for 2015 by connecting calls from Angular to the desktop APIs and returning properly formatted responses with cookies",
         "UI and Node JS efforts raised 0.02% conversion in February to 0.08% conversion by EOY"
       ]
     },
@@ -289,17 +289,19 @@
       ]
     },
     {
-        "name": "Front-End Frameworks",
+        "name": "Front-End Frameworks (and libraries)",
         "level": "Expert",
         "keywords": [
-            "Backbone",
+            "React",
+            "Redux",
             "Leaflet",
             "D3",
             "Google Maps",
             "Bootstrap 3",
             "Angular 1.x",
             "Marionette",
-            "React"
+            "Backbone",
+            "jQuery"
         ]
     },
     {
