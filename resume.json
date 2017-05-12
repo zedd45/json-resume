@@ -6,11 +6,9 @@
     "email": "christopher.keen@gmail.com",
     "phone": "(404) 494-0390",
     "website": "http://keenconcepts.io",
-    "summary": "Chris was born and raised in Atlanta GA (a native!) and loved computers from an early age.  He fell in love with the idea of programming a video game, and has created two (as of yet unreleased) video games with Impact.js with two of his close friends. Chris has a strong passion for JavaScript, and has presented several times at JavaScript Atlanta. Chris recently edited 'Data Visualizations with JavaScript' for NoStarch Press.",
+    "summary": "I am an Atlanta Native.  I have programmed a couple of (unreleased) video games using Impact.js with friends.  I have a strong passion for JavaScript, and have presented several times at Atlanta JavaScript. I edited 'Data Visualizations with JavaScript' for NoStarch Press.",
     "location": {
-      "address": "...",
       "postalCode": "GA 30076",
-      "city": "Roswell",
       "countryCode": "US",
       "region": "Georgia"
     },
@@ -48,13 +46,13 @@
     {
       "company": "ZCo Holdings",
       "position": "UI / Node Architect",
-      "website": "http://acesse.com/",
+      "website": "https://www.fantasesports.com/",
       "startDate": "2015-11-15",
-      "summary": "Acesse bought a startup (www.fantasycoach.com) that my friends are I were rewriting in Backbone Marionette, and offered us all full time employment",
+      "summary": "Acesse bought a startup (www.fantasycoach.com) that my friends are I were rewriting on weekends in Backbone Marionette, and offered us full time employment",
       "highlights": [
-        "Co-Designed a Hapi JS Dev Server capable of proxying out to multiple microservices (packaged as docker containers), that is also able to speak to Webpack Dev Server to Hot Reload React Modules while developing them",
+        "Co-Designed a Hapi JS Server that proxies to microservices (docker containers), as well as to Webpack Dev Server which serves React Components (modules)",
         "Docker Swarm is utilized to manage the health of our microservices in AWS",
-        "Developed a React + Redux + react-router + react-bootstrap based site for entering E-Sports competitions (currently CS:GO), complete with hundreds of unit tests.  This site was fully internationalized (i18n) with the use of reat-globalize and deployed in Singapore, here: https://www.fantasesports.com/",
+        "Developed a React + Redux + react-router + react-bootstrap based site for entering E-Sports competitions (currently CS:GO), complete with ~300 unit tests.  This site was fully internationalized (i18n) with the use of reat-globalize and deployed in Singapore",
         "Utilized `faker` + `json-server` to write fake data services for use with rapid prototyping React + Redux apps"
       ]
     },
@@ -64,13 +62,13 @@
       "website": "https://m.samsclub.com",
       "startDate": "2015-04-08",
       "endDate": "2015-11-15",
-      "summary": "Walmart Labs is the leading e-commerce platform in the world, providing open source solutions to complex problems.",
+      "summary": "I worked for Walmart Labs - the leading e-commerce platform in the world.  Labs provides open source solutions to complex problems.",
       "highlights": [
         "Designed a Hapi JS plugin that aggregated API calls with server caching which withstood 4.3 million page views per hour for the Sam's Club VIP Sale.",
         "Developed speech recognition prototype utilizing Angular 1.4.x, Babel, ES2015 and WebPack",
         "Implemented a 'heartbeat' plugin that displays statistics including load, memory usage, current tag for each repo, API endpoints, and more that also serves as a means for the T2 load balancer to check that health of the node instance for a given VIP",
         "Transitioned m.samsclub.com from a legacy Bentonville datacenter to OneOps - Walmart's soon to be open source OpenStack cloud computing platform",
-        "My team supported the Angular team's Cart and Checkout redesign for 2015 by connecting calls from Angular to the desktop APIs and returning properly formatted responses with cookies",
+        "My team supported the Angular team's Cart and Checkout redesign for 2015 by serving / mutating desktop APIs into a format consumable by Angular",
         "UI and Node JS efforts raised 0.02% conversion in February to 0.08% conversion by EOY"
       ]
     },
@@ -93,15 +91,14 @@
       "startDate": "2014-04-08",
       "summary": "Keen Concepts provides consulting solutions for complex JavaScript Applications.  KC has consulted with startups in their launch phases, to established fortune one companies (Walmart Labs).",
       "highlights": [
-        "Integrated Gulp into the http://www.vunify.com tech stack, allowing our front end process to JSHint, Concat, Minify, run tests, and compile Less CSS.  Karma + Jasmine 2.0 (jQuery+AJAX) ran our Unit Tests for our Backbone code. These tests were integrated into codeship.com for continuous deployment to production via Heroku",
-        "Refactored existing Algolia interface using an abstract class in Python that could be easily extended to parse the response for Multi-Queries (cross-collections - in this case, programs, playlists, and 'channels') into a single HTTP response for search results.",
-        "Created a series of User Playlist tools that allow users to create a playlist of programs, backed by Backbone Collections and Models synced with MongoDB via Flask RESTful. Playlists can be customized with a uploaded hero image via Heroku + Cloudinary. ",
+        "Vunify (http://www.vunify.com): Integrated Gulp, allowing our front end process to JSHint, Concat, Minify, run tests, and compile Less CSS.  Karma + Jasmine 2.0 (jQuery+AJAX) ran our Unit Tests for our Backbone code. These tests were integrated into codeship.com for continuous deployment to production via Heroku",
+        "Vunify: Refactored existing Algolia interface via a Python abstract class which aggregates the response for Multi-Queries (cross-collections - in this case, programs, playlists, and 'channels') into a single HTTP response for search results.",
+        "Vunify: Created a series of User Playlist tools, via Backbone synced to MongoDB via Flask RESTful, including custom hero images via Heroku + Cloudinary.",
+        "Vunify: Utilized Backbone and D3 with Epoxy to create a real-time dashboard of user statistics.",
         "Created an energy-usage geo-vis using Gulp, Karma, browserify, and Leaflet.",
-        "Utilized Backbone and D3 with Epoxy to create a real-time dashboard of user statistics.",
-        "Extracted the Hapi server code to it's own repository, and included it in the CanJS stack and the Angular Proof of Concept for m.samsclub.com",
-        "Refactored fantasycoach.com onto a modern, extensible platform using Marionette JS to create components. These modifications included UX and speed improvements.  Load times improved by an order of magnitude.",
-        "I was asked to teach the first Node js class held at The Creative Circus. I teach students how to use Hapi JS",
-        "Consulted with Randstad USA on a talent search intranet website written on a MEAN stack using Google Compute.  I added a custom single signon component with session management to the Express JS layer"
+        "Walmart Labs: Extracted the Hapi server code to it's own repository, and included it in the CanJS stack and the Angular Proof of Concept for m.samsclub.com",
+        "fantasycoach.com: Refactored UI using Marionette JS. These modifications included UX and speed improvements.  Load times improved by an order of magnitude.",
+        "Randstad USA: consulted on talent search intranet website written on a Google Compute MEAN stack.  I added a custom single signon component with session management via Express"
       ]
     },
     {
@@ -112,11 +109,11 @@
       "endDate": "2014-04-08",
       "summary": "TST provides dynamic travel booking and packaging solutions for AAA Clubs (and others)",
       "highlights": [
-        "Created a series of AMD JS components to manage things like client side error reporting relaying AJAX requests (in vanilla javascript - no frameworks) to the Scala layer for processing & archival.",
+        "Created a series of AMD JS components to manage things like client side error reporting relaying AJAX requests (via core javascript / no framework) to the Scala layer for processing & archival.",
         "Configured SBT to allow for Grunt JS + Scala Play integration.",
-        "Switched Less & Require JS from Play management to Grunt management.  This allowed us to ditch Rhino, speeding up compile times by an order of magnitude, as well as enabling us to drop the hard-coded version of less in playframework, a factor that prevented us from using BootStrap 3 in our environment.",
-        "Created a top level Gruntfile that houses a custom task that utilized Q promises to call npm install, then bower install, then a grunt target (dev / dist) for each sub-project (using grunt-hub) in a reliable, race-condition-free manner. This allows local dev and the build process to use the same top level design for generating assets.",
-        "Created a licensee content project via Grunt JS that allows the white-label portion of our business to ingest html components (header, footer, 3rd party CSS etc) and integrates them together into a template, validates the html & css, and then pushes them to a GIT repo which, with Jenkins' help, untars them into dev servers for testing and later promotion to prod."
+        "Switched Less & Require JS from Playframework / SBT to Grunt management, allowing us to remove Rhino and thus decrease compile times by an order of magnitude.  Additionally removed hard-coded version dependency for less in playframework, allowing us to upgrade to BootStrap 3",
+        "Designed a Gruntfile that utilized Q (promises) to call npm install, then bower install, then a build target for each sub-project (via grunt-hub) in a reliable, race-condition-free manner.  This allows local dev and the build process to use the same top level design for generating assets",
+        "Created a white label project that uses Grunt to ingest html components into a template, with commmands for validation, and pushing to GIT + Jenkins for automated deployments"
       ]
     },
     {
@@ -127,14 +124,12 @@
       "endDate": "2013-07-02",
       "summary": "I consulted on Infor Ming.le&#8482, a comprehensive platform for social collaboration, business process improvement, and contextual analytics. From collaborating alongside core systems like ERP or financials to “following” people and objects, Infor Ming.le&#8482 lets you get work done in ways you never thought possible.",
       "highlights": [
-        "responsible for the architecture and implementation of a custom framework including jQuery plugins and page components for Infor Social (Ming.le) – a SSO platform used to create a single place to manage a company’s data across a suite of products provided by both Infor and the general industry.",
-        "Created integration points of loosely coupled components for reuse on a variety of discrete areas on the application.",
-        "Smart Dialog utilizing HTML5 contenteditable that handles user input in order to populate a suggestion list (autocomplete) for tagging users and groups within the organization.  These events include 'tagging' a user by creating a visual aesthetic inside of the html input box ( contenteditable div), keyboard selection using arrow keys and enter, and storing the actual value of the tag for processing of notifications to tagged users and processing of privacy levels for posts.",
-        "Revised existing custom HTML5 Bulk upload component, utilizing feature detection to instantiate Flash (Uploadify) fallback for browsers that don’t support File API",
-        "Image Carousel with pagination",
-        "Overlay / Dialog component supporting dynamic content that ‘conditionally’ binds event listeners for re-centering and closing (upon close button click or esc key).",
+        "I consulted on the architecture and implementation of a custom framework including jQuery plugins and page components for Infor Social (Ming.le) – a SSO platform used to create a single place to manage a company’s data across a suite of products",
+        "Engineered a Smart Dialog utilizing HTML5 contenteditable that populates a suggestion list on user input (autocomplete) for tagging users and groups within the organization.  Interactions include 'tagging' a user (visual aesthetic inside of the contenteditable div), keyboard selection via arrow / enter keys.  The component stores the tag to process notifications to tagged users & handles privacy levels for posts", 
+        "HTML5 Bulk upload component, utilizing feature detection to instantiate Flash (Uploadify) fallback for browsers that don’t support File API",
+        "Overlay / Dialog component supporting dynamic content that ‘conditionally’ binds event listeners for re-centering and closing (upon close button click or esc key)",
         "Infinite Scroll component with a custom callback feature to fire programmable actions when it detects user has reached the ‘end’ of the current content",
-        "Consolidated JavaScript file structure and created easily-extensible namespacing conventions to reduce maintenance and enhancement overhead (using $.extend and detection to prevent ‘clobbering’ existing namespaces).",
+        "Implemented namespacing conventions / file structure to reduce maintenance overhead ($.extend with detection to prevent ‘clobbering’ existing namespaces)",
         "Added Mocha JS with Sinon JS & Chai JS to test plugin components and custom framework integration"
       ]
     },
@@ -146,9 +141,9 @@
       "endDate": "2012-04-01",
       "summary": "Real Time network intrusion detection and monitoring.",
       "highlights": [
-        "Authored an internal API to index data using Ruby Sinatra to return paginated JSON responses from Amazon's DynamoDB, including a file processing queue using Amazon's SQS.  I then wrapped these API calls in a UI utilizing JSONP, Handlebars, and HTML5 validation.  I implemented a light-weight, custom infinite scroll handler to fetch more results as the user scrolled down the page (similar yet different from Paul Irish's version).  I completed this effort with by adding unit tests for the API in RSpec / rack::test, and Mocha JS tests for the UI / JavaScript components.",
-        "Contributed to the development of Ember JS 'widgets' written in CoffeeScript.  We utilized  Ember Data for REST calls, data persistence, and to handle state (loading/error) transitions.",
-        "Populated JSON responses via Express JS wrappers that aggregate data from API calls.  We used mocha js (also written in CoffeeScript) to test both the Node JS / Express JS and client side (Ember JS) unit tests."
+        "Authored an API to index data using Ruby Sinatra to respond with paginated JSON with DynamoDB integration, including a file processing queue using Amazon's SQS. I wrote a UI in Handlebars utilizing JSONP, complete with HTML5 validation, and a light-weight, custom infinite scroll handler to fetch more results on scroll.  I completed this effort by adding unit tests for the API (RSpec), and UI (Mocha)",
+        "Contributed to the development of Ember JS 'widgets' written in CoffeeScript.  We utilized  Ember Data for REST calls, data persistence, and to handle state (loading/error) transitions",
+        "Populated JSON responses via Express JS wrappers that aggregate data from API calls.  We used mocha to test both the Express and client Ember unit tests"
       ]
     },
     {
@@ -159,9 +154,9 @@
       "endDate": "2011-11-12",
       "summary": "EGS provides Instant Detection and Active Response To Advanced Threats with Endgame Enterprise",
       "highlights": [
-        "Utilize Python / Django with jQuery to create the front end and several NoSQL stores including Cassandra, Accumulo, Hadoop, and Solr to sift through large amounts of data.",
-        "Implemented several visualizations ranging from simple charts created with jQuery's Flot, to interactive tables using jQuery dataTables.",
-        "Crafted a replacement for Google Earth Enterprise product using OpenStreetMap data and tiles styled in TileMill, served by TileStache, with interactions powered by Leaflet JS.  This effort saved ~$500,000 per deployment (the cost of an enterprise GE license)."
+        "I utilized Python / Django with jQuery to create the front end and several NoSQL stores including Cassandra, Accumulo, Hadoop, and Solr to sift through large amounts of data",
+        "Implemented several visualizations ranging from simple charts created with jQuery's Flot, to interactive tables using jQuery dataTables",
+        "Crafted a replacement for Google Earth Enterprise product using OpenStreetMap data and tiles styled in TileMill, served by TileStache, with interactions powered by Leaflet JS.  This effort saved ~$500,000 per deployment (the cost of an enterprise GE license)"
       ]
     },
     {
@@ -172,9 +167,9 @@
       "endDate": "2011-11-12",
       "summary": "The Weather Channel and weather.com provide a national and local weather forecast for cities, as well as weather radar, report and hurricane coverage.",
       "highlights": [
-        "I participated in the mobile-first web redesign for weather.com.  We used zepto.js for light-weight, cross-platform event handling (such as swipe), and used cutting edge RWD and CSS3 technologies to render a fast and friendly experience to mobile users.",
-        "Project Swagger integrated Twitter into weather.com.  I worked with Jeff Lu to create the components,ate including a SVG 'Tweet' Map that would present a carousel of weather-related tweets specific to a st when you clicked on a state.",
-        "I participated in the Interactive Map Redesign, where we created an HTML5-friendly version of the map, as well as integrated with Flash to create a rich experience using Bing Maps."
+        "Mobile-first web redesign: we used zepto.js for light-weight, cross-platform event handling (such as swipe), and used cutting edge RWD and CSS3 technologies to render a fast and friendly experience to mobile users",
+        "Integrated Twitter into weather.com.  I worked on components, including a SVG 'Tweet' Map that would present a carousel of weather-related tweets specific to a state when you clicked on the state",
+        "Interactive Map Redesign: we created an HTML5-friendly static weather map, and integrated with Flash to create a rich experience by overlaying weather tiles on map tiles"
       ]
     },
     {
@@ -188,7 +183,6 @@
         "Proposed and implemented changes to the code that controls Ads on the front and back end in order to have a consistent, concise, performance optimized solution.",
         "Ad Serving Subject Matter Expert (SME).",
         "UIE project lead on several projects, including: AutoTraderClassics.com (post-launch), Consumer Site Loyalty / MyATC.",
-        "Received the Helping Hands Award from Customer Operations for leading proactive enhancements.",
         "Responsible for managing and maintaining the UIE code review process.",
         "Sole developer on two site-wide, high profile initiatives (Ads Framework Upgrade, Marketing Homepage & Header banners), while engaged on a third, mission critical project (Next Generation Model Info).",
         "Created UI components for the Model Info page that emit & listen for name-spaced jQuery events and re-render areas of the UI based on the event. (pre-backbone)",
@@ -196,7 +190,6 @@
         "Created JS controller to power ad targeting changes via AJAX calls for a research page component",
         "Integrated the Flash “hero” homepage ad and background images for site header into the CMS.",
         "Encouraged and participated in the addition of jQuery to AutoTrader.com",
-        "Received the 'I Make a Difference' award for outstanding dedication to the site.",
         "Solitary engineer on Maintenance for AutoTrader.com for several months. Responsible for all issue resolutions, including production emergencies. Required to support multiple platforms / browsers."
       ]
     },
@@ -237,36 +230,14 @@
       "institution": "University of Georgia",
       "area": "Computer Science",
       "studyType": "Bachelor",
-      "startDate": "2003-06-01",
-      "endDate": "2024-04-08",
-      "gpa": "2.99",
-      "courses": [
-        "CS1301 - Intro to Software Design",
-        "CS1302 - Software Design",
-        "CS1702 - Systems Programming",
-        "CSCI 2670 - Computer Theory",
-        "CSCI 2720 - Data Structures",
-        "CS-2610 - Discrete Mathematics",
-        "MATH 2250 - Calculus I",
-        "Philosophy",
-        "Misc Electives"
-      ]
+      "startDate": "2003-06-01"
     },
     {
       "institution": "University of North Georgia",
       "area": "Computer Science",
       "studyType": "Associates",
       "startDate": "2000-01-01",
-      "endDate": "2006-06-01",
-      "gpa": "3.1",
-      "courses": [
-        "MATH 2260 - Calculus II",
-        "Honors English I",
-        "Honors English II",
-        "Psychology I",
-        "Sociology I",
-        "Misc Electives"
-      ]
+      "endDate": "2006-06-01"
     }
   ],
   "awards": [
@@ -287,14 +258,12 @@
   "skills": [
     {
       "name": "Web Development",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
         "HTML5",
         "CSS3",
         "Javascript",
-        "ES5",
-        "ES6",
-        "ES2015"
+        "ES20xx"
       ]
     },
     {
@@ -319,10 +288,8 @@
         "keywords": [
             "Less CSS",
             "Sass",
-            "Stylus",
-            "Jade",
-            "Haml",
-            "CoffeeScript"
+            "CoffeeScript",
+            "Babel"
         ]
     },
     {
@@ -343,8 +310,7 @@
         "keywords": [
             "Webpack",
             "Gulp",
-            "Grunt",
-            "Jake"
+            "Grunt"
         ]
     }
   ],
