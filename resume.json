@@ -39,15 +39,11 @@
   },
   "work": [
     {
-      "company": "The Creative Circus",
-      "position": "Adjunct Professor",
-      "website": "http://www.creativecircus.edu/",
-      "startDate": "2015-09-15",
-      "summary": "I teach young professionals concepts about JavaScript",
-      "highlights": [
-        "Advanced JavaScript - Inheritance, ES6, Design (Module) Patterns, TDD and more (https://github.com/zedd45/2016Q1-adv-js)",
-        "Node.js - How to build a server using Node JS and Hapi (https://github.com/zedd45/2015-fall-creative-circus)"
-      ]
+      "company": "Thinkful.inc",
+      "position": "Bootcamp Mentor",
+      "website": "https://www.thinkful.com/",
+      "startDate": "2017-02-15",
+      "summary": "I meet with a student three times a week to help them with their full stack JavaScript bootcamp"
     },
     {
       "company": "ZCo Holdings",
@@ -57,8 +53,9 @@
       "summary": "Acesse bought a startup (www.fantasycoach.com) that my friends are I were rewriting in Backbone Marionette, and offered us all full time employment",
       "highlights": [
         "Co-Designed a Hapi JS Dev Server capable of proxying out to multiple microservices (packaged as docker containers), that is also able to speak to Webpack Dev Server to Hot Reload React Modules while developing them",
+        "Docker Swarm is utilized to manage the health of our microservices in AWS",
         "Developed a React + Redux + react-router + react-bootstrap based site for entering E-Sports competitions (currently CS:GO), complete with hundreds of unit tests.  This site was fully internationalized (i18n) with the use of reat-globalize and deployed in Singapore, here: https://www.fantasesports.com/",
-        "Dockerized fantasycoach.com into backend, middleware (node / hapi) and frontend components (Backbone Marionette)"
+        "Utilized `faker` + `json-server` to write fake data services for use with rapid prototyping React + Redux apps"
       ]
     },
     {
@@ -75,6 +72,18 @@
         "Transitioned m.samsclub.com from a legacy Bentonville datacenter to OneOps - Walmart's soon to be open source OpenStack cloud computing platform",
         "My team supported the Angular team's Cart and Checkout redesign for 2015 by connecting calls from Angular to the desktop APIs and returning properly formatted responses with cookies",
         "UI and Node JS efforts raised 0.02% conversion in February to 0.08% conversion by EOY"
+      ]
+    },
+    {
+      "company": "The Creative Circus",
+      "position": "Adjunct Professor",
+      "website": "http://www.creativecircus.edu/",
+      "startDate": "2015-09-15",
+      "endDate": "2016-03-15",
+      "summary": "I prepared the course material and taught JavaScript concepts to young professionals for two quarters",
+      "highlights": [
+        "Advanced JavaScript - Inheritance, ES6, Design (Module) Patterns, TDD and more (https://github.com/zedd45/2016Q1-adv-js)",
+        "Node.js - How to build a server using Node JS and Hapi (https://github.com/zedd45/2015-fall-creative-circus)"
       ]
     },
     {
@@ -214,12 +223,12 @@
       "position": "Speaker / Lecturer",
       "website": "https://twitter.com/atljavascript",
       "startDate": "2012-01-01",
-      "endDate": "2024-04-08",
       "summary": "Meetups and Workshops for those passionate about learning JavaScript.",
       "highlights": [
         "Video Game Libraries 2012",
         "Grunt 2013",
-        "Gulp 2014"
+        "Gulp 2014",
+        "Hapi JS 2016"
       ]
     }
   ],
